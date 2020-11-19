@@ -21,9 +21,9 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 - Removed Offensive Security OSCE (retired)
 - Removed Cisco CCNA CyberOps (retired)
 - Removed duplicate Pentester Academy CRTP
-- Corrected links for Cloud+, eWPTX,
-- Corrected Typo for NSCS Certs, OPSA, CCFE
-- Corrected exam cost for AWS Security Spec, eWPTX
+- Corrected links for Cloud+ and eWPTX
+- Corrected Typo for NSCS Certs, OPSA, CCFE, and CCIE
+- Corrected exam cost for AWS Security Spec and eWPTX
 
 ### October 2020:
 - Updated HTML/CSS logic to increase chart size
