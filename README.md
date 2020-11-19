@@ -13,7 +13,17 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ### November 2020:
 - Added to GitHub for pull requests
-- Added certification Security Blue Team level 1 (BTL1)
+- Added Security Blue Team certification: BTL1
+- Added Sales Force Certifications: SFCCCC, SFCIAMD, and SFCTA
+- Added The Institute of Internal Auditors: CIA
+- Added Offensive Security certification: OSEP
+- Added Cisco Certification: CCCOA
+- Removed Offensive Security OSCE (retired)
+- Removed Cisco CCNA CyberOps (retired)
+- Removed duplicate Pentester Academy CRTP
+- Corrected links for Cloud+, eWPTX,
+- Corrected Typo for NSCS Certs, OPSA, CCFE
+- Corrected exam cost for AWS Security Spec, eWPTX
 
 ### October 2020:
 - Updated HTML/CSS logic to increase chart size
