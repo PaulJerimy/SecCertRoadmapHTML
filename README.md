@@ -77,5 +77,42 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 - Added Pentester Academy Certified Red Team Expert
 
 ### March 2020:
-- Initial release of the interactive chart.
+- Migrated from powerpoint image to HTML/CSS5 interactive chart
+- Added mouse over information for exam price and if a course is required
+- Added link to certification websites
 - Included 324 certifications
+
+### December 2019:
+See roadmap here: https://www.pauljerimy.com/OC/Security%20Certification%20Progression%20Chart%20v6.2.png
+- Changes towers from job types to security domains
+- Added many certifications
+- Moved some certifications up or down
+- Moved categories so engineering and architecture are side by side due to their relation
+- Changed Security Engineering to Security Implementation
+- Marked Sec+, SSCP, GSEC, Programming languages, CASP, CISSP, GSE as core certifications with a gradient & note
+- Added a version, date, and author
+- Removed the self explanatory key
+- Removed the color for "software"
+- Minor formatting changes
+
+### November 2018:
+See roadmap here: https://www.pauljerimy.com/OC/Security%20Certification%20Progression%20Chart%20v5.2.png
+- Rebuilt roadmap from old image
+- Added many certifications
+- Removed DoD 8570.01M indicators
+- Condensed certifications for easier viewing
+
+### July 2015 By Drackar of wwww.techexams.net:
+See roadmap here: https://www.pauljerimy.com/OC/Security%20Certification%20Progression%20Chart%20v4.0.png
+- Added Malware Analysis
+- Added IT Security Auditor
+- Added additional certifications
+- Changed rankings
+
+### November 2014 By Drackar of www.techexams.net:
+See roadmap here: https://www.pauljerimy.com/OC/Security%20Certification%20Progression%20Chart%20v3.0.png
+- Color coded domains
+- Indicated DoD 8570 alignment
+- Added key
+- Added certifications
+- Rearranged ranking
