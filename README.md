@@ -13,6 +13,7 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ### November 2020:
 - Added to GitHub for pull requests
+- Added Mile2 Certification: CDFE
 - Added Security Blue Team certification: BTL1
 - Added Sales Force Certifications: SFCCCC, SFCIAMD, and SFCTA
 - Added The Institute of Internal Auditors: CIA
