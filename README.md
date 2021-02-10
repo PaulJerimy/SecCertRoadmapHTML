@@ -15,7 +15,7 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 - Added eLearnSecurity Certification: eCMAP
 - Added Cisco Certification: CCCOP
 - Added Linux Foundation Certifications: LFCA, LFCS, and LFCE
-- Added APMG Certications: 27001F, 27001P, and 27001A
+- Added APMG Certifications: 27001F, 27001P, and 27001A
 - Expanded the GRC sub-domain to 3 columns & shifted certifications accordingly
 - Moved CCCOA from Network to Security Operations
 - Corrections to CCCOA, IIA CIA, FortiNET NSE 8, CAD, CAC, CCSP, eCRE, and GCPEH
