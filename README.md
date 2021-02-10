@@ -11,6 +11,13 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### February 2021:
+- Added eLearnSecurity Certification: eCMAP
+- Added Cisco Certification: CCCOP
+- Added Linux Foundation Certification: LFCSA
+- Moved CCCOA from Network to Security Operations
+- Corrections to CCCOA, IIA CIA, FortiNET NSE 8, CAD, CAC
+
 ### November 2020:
 - Added to GitHub for pull requests
 - Added Security Blue Team certification: BTL1
