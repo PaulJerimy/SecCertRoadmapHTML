@@ -5,10 +5,6 @@ This code is embedded inside the html page at https://www.pauljerimy.com/securit
 
 I am open to restructing this html if a better way is known. I am a beginner at best when it comes to HTML and CSS.
 
-## Known Issues:
-1. Certifications do not line up with frames exactly depending on windows size. This is especially noticable on resolutions above 1920x1080.
-2. Some certifications need updated linked and/or exam prices.
-
 ## Change Log
 
 ### February 2021:
