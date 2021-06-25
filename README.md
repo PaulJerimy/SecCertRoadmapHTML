@@ -7,6 +7,9 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### June 2021:
+- Added Mossé Cyber Security Institute Certifications: MOIS, MNSE, MRCI, MBT, MDFIR, MGRC, MPT, MRE, MTH, MCD, MRT, MTIA 
+
 ### February 2021:
 - Added PAI Certification: WCNA
 - Added eLearnSecurity Certification: eCMAP
