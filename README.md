@@ -35,6 +35,7 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 - Corrected the exam price and link for KLCP
 - Corrected the link for EITCA/IS
 - Corrected the tooltip for S-CEHL due to a spelling typo
+- Asset Security certifications now properly colored "yellow" instead of "orange"
 
 ### February 2021:
 - Added PAI Certification: WCNA
