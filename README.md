@@ -7,6 +7,34 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### July 2021:
+- Added Mosse Cyber Security Institute Certifications: MOIS, MNSE, MRCI, MBT, MDFIR, MGRC, MPT, MRE, MTH, MCD, MRT, and MTIA
+- Added GIAC Certification: GCPN
+- Added PDSO Certifications: CDP and CDE
+- Added Microsoft Certification: MSOAA, MSCIF, and MIAAA
+- Added Offensive Security Certification: OSED and OSCE3
+- Added TCM Security Certification: PNPT
+- Added Zero Point Security Certification: Red Team Ops
+- Added TUV Certifications: COSP, COSTE, and COSM
+- Added EC Council Certification: CPENT
+- Added (ISC)2 Certification: HCISSP
+- Removed CCAr due to it being retired March 1st, 2021
+- Removed MTA due to that category of certification being retired on June 30th, 2021
+- Removed ECSA due to it being retired May 15th, 2021
+- Moved GCWN from the Unix to SysOps sub domain
+- Moved eCIR up 1 row based on feedback
+- Moved CSX-P down 3 rows based on feedback
+- Moved CEPT down 7 rows and expanded into exploitation based on feedback
+- Moved CPT down 5 rows based on feedback
+- Moved eJPT up 1 row based on feedback
+- Moved the CIST, CIGE, and SFCIAMD certifications up 1 row in the IAM domain
+- Corrected the exam price for Offensive Security OSWE from $2799 to ~$1299
+- Corrected the exam price for eJPT from $400 to $200
+- Corrected the exam price for CFR from $149 to $250
+- Corrected the exam price and link for KLCP
+- Corrected the link for EITCA/IS
+- Corrected the tooltip for S-CEHL due to a spelling typo
+
 ### February 2021:
 - Added PAI Certification: WCNA
 - Added eLearnSecurity Certification: eCMAP
