@@ -14,10 +14,11 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 - Added Microsoft Certification: MSOAA, MSCIF, and MIAAA
 - Added Offensive Security Certification: OSED and OSCE3
 - Added TCM Security Certification: PNPT
-- Added Zero Point Security Certification: Red Team Ops
+- Added Zero Point Security Certification: ZPRTO
 - Added TUV Certifications: COSP, COSTE, and COSM
 - Added EC Council Certification: CPENT
 - Added (ISC)2 Certification: HCISSP
+- Added Security Blue Team Certification: BLT2
 - Removed CCAr due to it being retired March 1st, 2021
 - Removed MTA due to that category of certification being retired on June 30th, 2021
 - Removed ECSA due to it being retired May 15th, 2021
