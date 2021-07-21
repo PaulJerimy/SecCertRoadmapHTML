@@ -8,9 +8,6 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 ## Change Log
 
 ### February 2021:
-- Added Microsoft Certification: SOAA 
-
-### February 2021:
 - Added PAI Certification: WCNA
 - Added eLearnSecurity Certification: eCMAP
 - Added Cisco Certification: CCCOP
