@@ -7,6 +7,20 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### April 2022: PENDING
+- Added Offensive Securiry certifications: OSDA, OSWA, and OSMR
+- Added Docker certification: DCA
+- Added Cloud Native Computing Foundation certifications: CKS, CKA, CKAD, and KCNA
+- Removed IACRB certifications: CSAP, CPT, CREA, CMWAPT, CRTOP, CEPT, CDRP, CSSA, CCTHP, CMFE, CCFE, and CEREA as their website is down (starting January 22, 2022).
+- Moved OSCE3 up one row to reflect its requirement to complete OSWE, OSEP, and OSED
+- Corrected LPIC-1 and LPIC-2 to reflect they require 2 exams each, with each exam costing $200
+- Corrected GIAC certifications to reflect the exam price drop from $1,999 to $849 if taken without a SANS course
+- Added a column to Security Architecture & Engineering - Cloud/SysOps for container certs and more spacing
+- Added more code comments
+- Redesigned tooltips to display in place (absolute to relative positioning)
+- Added more contrast to colors: dark blue for blue team, lighter blue for software sec, darker purple for testing, grey for management, and lighter yellow for asset sec. (I tested magenta as a replacement for black and it was not pleasing on the eye.)
+
+
 ### July 2021:
 - Added Mosse Cyber Security Institute Certifications: MOIS, MNSE, MRCI, MBT, MDFIR, MGRC, MPT, MRE, MTH, MCD, MRT, and MTIA
 - Added GIAC Certification: GCPN
