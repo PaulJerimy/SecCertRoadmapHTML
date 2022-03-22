@@ -7,19 +7,51 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
-### April 2022: PENDING
+### April 2022:
+- Added Fair Institute certification: Fair Fdn
+- Added Dark Vortex certifications: DV MoS, DV RTOS, DV OTD, DV AOPH, and DV MILF
+- Added Mosse Institute certifications: MCSF, MICS, MTCF, MASE, MCL, MCPT, MCSE, MESE, MCPE, MDSO, and MVRE
+- Added Mitre Att&ck certifications: MAD CTI and MAD SOCA
+- Added EXIN certifications: 27001F, 27001P, and 27001E
+- Added Axelos certifications: M_o_S Foundation and M_o_S Practitioner
+- Added SANS certifications: GFACT, GSOC, and GPCS
+- Added Microsoft certification: SC-400
+- Added Fortinet certifications: NSE 3 and NSE 5
+- Added Palo Alto certifications: PCCET, PCDRA, PCCSE, and PCSAE
+- Added Mile2 certifications: C)SWAE, C)CSA, and C_TIA
+- Added EC First certifications: CSCS, CCSA, and CCP
+- Added PECB certifications: 27001F, 27001LI, 27001LA, 27032F, 27032CM, 27005RM, and 27005LM, and CLCSM
 - Added Offensive Securiry certifications: OSDA, OSWA, and OSMR
 - Added Docker certification: DCA
 - Added Cloud Native Computing Foundation certifications: CKS, CKA, CKAD, and KCNA
-- Removed IACRB certifications: CSAP, CPT, CREA, CMWAPT, CRTOP, CEPT, CDRP, CSSA, CCTHP, CMFE, CCFE, and CEREA as their website is down (starting January 22, 2022).
-- Moved OSCE3 up one row to reflect its requirement to complete OSWE, OSEP, and OSED
+- Removed Palo Alto certifications: PCCSA
+- Removed Infosec Institute / IACRB certifications: CPT, CEPT, and CEREA which do not appear to be available at this time
+- Removed Mile2 certifications: C)VE, C)VCP, C)VFE, and Red vs Blue
+- Removed 9 Lunarline certifications as they were purchased by Motorola and the certifications appear to be discontinued: CEIM, CESO, CEPP, CERP, CEPM, CESA, CESE, CECS, and CEIA
+- Removed GSSP which was retired
+- Moved F5 CA up 3 rows
+- Moved WCNA down 1 row
+- Moved CCT down 1 row
+- Moved OSCE3 up 1 row
+- Moved DevNetA up 1 row
+- Moved CCSC up 1 row
+- Corrected Mile2 web links and exam prices from $400 to $550.
+- Corrected C)PTC from "Expert" to "Consultant"
+- Corrected IACRB certifications to reflect take over by Infosec Institute and new pricing: CSAP, CREA, CMWAPT, CRTOP, CDRP, CSSA, CCTHP, CMFE, and CCFE
 - Corrected LPIC-1 and LPIC-2 to reflect they require 2 exams each, with each exam costing $200
 - Corrected GIAC certifications to reflect the exam price drop from $1,999 to $849 if taken without a SANS course
+- Corrected GREM certification link
+- Corrected SF CIAMD to fit in it's container
+- Corrected link to CIISec ICSF
+- Renamed Microsoft certifications to their exam code. I.E., MSOAA is now SC-200
+- Added hover text over domain titles with domain descriptions in line with the ISC2 CBK
+- Added a row to the bottom of the certification to allow for more beginner level certifications
+- Added a column on the left to add proficiency level indicators to the rows with: Beginner, Intermediate, and Advanced
 - Added a column to Security Architecture & Engineering - Cloud/SysOps for container certs and more spacing
+- Added a column to Security and Risk Management in order to add additional ISO/IEC 27000 certifications
 - Added more code comments
 - Redesigned tooltips to display in place (absolute to relative positioning)
 - Added more contrast to colors: dark blue for blue team, lighter blue for software sec, darker purple for testing, grey for management, and lighter yellow for asset sec. (I tested magenta as a replacement for black and it was not pleasing on the eye.)
-
 
 ### July 2021:
 - Added Mosse Cyber Security Institute Certifications: MOIS, MNSE, MRCI, MBT, MDFIR, MGRC, MPT, MRE, MTH, MCD, MRT, and MTIA
