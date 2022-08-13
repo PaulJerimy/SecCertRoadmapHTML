@@ -7,6 +7,33 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### August 2022:
+- Added SANS certifications: GIME and GCFR
+- Added SECO certifications: S-TA, S-SA, and S-CSPL
+- Added Certiport certifications: ITS-C and ITS-NS
+- Addied EC Council certification: CCSE
+- Added Mile2 certifications: C)HISSP, C)ISRM, IS20, C)IHE, C)DRE, CM)ISSO, CM)IPS, and CM)DFI
+- Added PCI certification: PCI QSA
+- Added The H Layer certification: SACP
+- Added Cyber Scheme certifications: CSTM and CSTL
+- Added Microsoft certification: SC-100
+- Added Hack the Box certification: HTB CBBH
+- Removed duplicate PCNSA
+- Removed CREST CWS
+- Moved MCSE from Security Operations to Security Architecture and Engineering
+- Moved GPEN up 1 row
+- Moved CFCE up 1 row
+- Moved C)ISSM up 2 rows
+- Moved CISSM up 1 row
+- Moved CAP up 1 row
+- Moved HCISPP up 1 row
+- Corrected HCISSP to HCISPP
+- Corrected the CCIE Ent link
+- Corrected SECO certification links and prices
+- Corrected SANS certification prices from $849 to $949
+- Corrected Offensive Security prices to $1499 except OSWE to $1649
+- Other link and price fixes that I lost track of because I accidently closed this readme without saving
+ 
 ### April 2022:
 - Added Fair Institute certification: Fair Fdn
 - Added Dark Vortex certifications: DV MoS, DV RTOS, DV OTD, DV AOPH, and DV MILF
