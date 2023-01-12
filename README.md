@@ -7,6 +7,14 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### January 2023:
+- Added ISMI certications: CSM and CSMP
+- Added OCEG certifications: GRCP and GRCA
+- Added Zero Point Security certification: CRTO II
+- Added GIAC certifications: GCTD and GCWN
+- Removed duplicate Zero Point CRTO
+- Updated link and exam cost for eJPT
+
 ### August 2022:
 - Added SANS certifications: GIME and GCFR
 - Added SECO certifications: S-TA, S-SA, and S-CSPL
