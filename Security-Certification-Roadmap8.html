@@ -49,7 +49,6 @@
             grid-template-rows: 1.68vmax;
             grid-column-gap: 0.2vmax;
             grid-gap: 0.1vmax;
-      			padding-right: 0.8vmax;
     }
 
     /* Primary style for the chart, which is the parent container for everything else. */
@@ -263,7 +262,7 @@
             display: grid;
             position: absolute;
             font-size:0.6vmax;
-            top: 4.6vmax;
+            top: 4.8vmax;
             left: -0.31vmax;
             grid-template-columns: [skilllevel] 1.7vmax [network] 2.3vmax 2.3vmax 2.3vmax .4vmax [iam] 2.3vmax .4vmax [engineer] 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 0.4vmax [asset] 2.3vmax 2.3vmax 0.4vmax [mgmt] 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 0.4vmax [testing] 2.3vmax 2.3vmax 2.3vmax 0.4vmax [software] 2.3vmax 0.4vmax [ops] 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax 2.3vmax;
             grid-template-rows: repeat(27, 1.5vmax);
@@ -820,22 +819,22 @@
         display: block;    
     }
 
-    /* Make a static image if horizontal screen is smaller than 898px (iPhone size is 898) */
+    /* Make a static image if horizontal screen is smaller than 898px (iPhone size is 898)*/
     #interactive {display: block;}
     #static {display: none;}
     
-   /* @media screen and (max-width: 897px) {
+    @media screen and (max-width: 897px) {
     
       #interactive {display: none;}
-      #static {display: block;} */
-  
+      #static {display: block;}
+    
     }
     </style>
-    <!--
+    
     <div id="static">
             <img src="https://pauljerimy.com/wp-content/uploads/2022/03/SCRApril2022.png" alt="Static Security Certification Chart (April 2022)" class="wp-image-309">
     </div>
-    -->
+    
     <div id="interactive" class="certchart">
         <div style="text-align:left;font-size:200%;font-weight:500;padding-bottom:0.2vmax;">Security Certification Roadmap
 
@@ -915,10 +914,12 @@
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="mgmtitem25" href="https://www.giac.org/certification/security-expert-gse" tooltiptext="GIAC Security Expert
-    $3,108 exam & lab
+    $3,108 exam &amp; lab
     In person lab" tabindex="0" target="_blank" >GSE</a>
                     <div class="spacer10"></div>
-                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://www.offensive-security.com/awe-osee/" tooltipright="Offensive Security Exploitation Expert
+    $5,000 lab
+    Plus travel" tabindex="0" target="_blank" >OSEE</a>
                     <div class="spacer"></div>
                     <!-- Row 3 -->
                     <div class="spacer"></div>
@@ -946,9 +947,7 @@
                     <a class="redopsitem1" href="https://help.offensive-security.com/hc/en-us/articles/4403282452628-What-is-OSCE3-" tooltiptext="Offensive Security Certified Expert 3
     $4,649 3 labs" tabindex="0" target="_blank" >OSCE3</a>
                     <div class="spacer"></div>
-                    <a class="redopsitem1" href="https://www.offensive-security.com/awe-osee/" tooltipright="Offensive Security Exploitation Expert
-    $5,000 lab
-    Plus travel" tabindex="0" target="_blank" >OSEE</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 4 -->
                     <div class="spacer"></div>
@@ -969,7 +968,7 @@
     plus travel" tabindex="0" target="_blank" >RHCA</a>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://sabsa.org/certification/" tooltiptext="SABSA Chartered Security Architect - Master Certificate
-    $3,750 exam & thesis
+    $3,750 exam &amp; thesis
     Branded course required" tabindex="0" target="_blank" >SABSA SCM</a>
                     <div class="spacer10"></div>
                     <div class="spacer5"></div>
@@ -988,8 +987,7 @@
                     <!-- Row 5 -->
                     <div class="spacer"></div>
                     <div class="spacer10"></div>
-                     <a class="engineeritem1" href="https://training.suse.com/certification/sea/" tooltiptext="SUSE Enterprise Architect
-    ~$1,050 multiple exam" tabindex="0" target="_blank" >SEA</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="mgmtitem4" href="https://www.isc2.org/Certifications/CISSP-Concentrations" tooltiptext="(ISC)2 Certified Information Systems Security Professional Concentrations
     $599 exam" tabindex="0" target="_blank" >CISSP Concentrations</a>
@@ -997,8 +995,7 @@
                     <a class="mgmtitem1" href="https://www.pmi.org/certifications/types/program-management-pgmp" tooltiptext="PMI Program Management Professional
     $1,000 exam" tabindex="0" target="_blank" >PgMP</a>
                     <div class="spacer"></div>
-                    <a class="mgmtitem1" href="https://www.seco-institute.org/certifications/information-security-certification-track/" tooltiptext="SECO Certified Information Security Officer
-    $75 resume review" tabindex="0" target="_blank" >S-CISO</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -1038,8 +1035,8 @@
                     <a class="assetitem2" href="https://www.asisonline.org/certification/certified-protection-professional-cpp/" tooltiptext="ASIS Certified Protection Professional
     $485 exam" tabindex="0" target="_blank" >ASIS CPP</a>
                     <a class="mgmtitem1" href="https://www.zachman.com/certification/what-we-certify/enterprise-architect" tooltiptext="Zachman Enterprise Architect Professional (Level 3)
-    $2,999 exam & case study
-    Level 1 & 2 cert not req'd" tabindex="0" target="_blank" >Zach EAPro</a>
+    $2,999 exam &amp; case study
+    Level 1 &amp; 2 cert not req'd" tabindex="0" target="_blank" >Zach EAPro</a>
                     <a class="mgmtitem1" href="https://www.pmi.org/certifications/project-management-pmp" tooltiptext="PMI Project Management Professional
     $555 exam" tabindex="0" target="_blank" >PMP</a>
                     <a class="mgmtitem1" href="https://www.isaca.org/credentialing/cism" tooltiptext="ISACA Certified Information Security Manager
@@ -1057,34 +1054,28 @@
 		    <div class="spacer"></div>
 		    <div class="spacer"></div>
                     <a class="blueopsitem1" href="https://www.csiac.org/certification/cybersecurity-forensic-analyst-csfa-certification/" tooltiptext="CSIAC CyberSecurity Forensic Analyst
-    $750 exam & lab" tabindex="0" target="_blank" >CSFA</a>
+    $750 exam &amp; lab" tabindex="0" target="_blank" >CSFA</a>
                     <a class="blueopsitem2" href="https://www.giac.org/certifications/ios-macos-examiner-gime/" tooltiptext="GIAC iOS and MacOS Examiner
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GIME</a>
                     <div class="spacer"></div>
-		    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mrt-certified-red-teamer.html" tooltiptext="Mosse Institute Certified Red Teamer Certification
-  $450 certification programme
-  100% practical. No expiry." tabindex="0" target="_blank">MRT</a>
+		    <div class="spacer"></div>
 		    <div class="spacer"></div>
 		    <div class="spacer"></div>
 		    <div class="spacer"></div>
                     <a class="redopsitem2" href="https://www.giac.org/certification/gawn" tooltipright="GIAC Assessing Wireless Networks
     $949 exam
     SANS course recommended" tabindex="0">GAWN</a>
-                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mcd-certified-code-deobfuscation-specialist.html" tooltipright="Mosse Institute Certified Code Deobfuscation Specialist Certification
-  $450 certification programme
-  100% practical. No expiry." tabindex="0">MCD</a>
+                    <div class="spacer"></div>
                     <!-- Row 7 -->
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="mgmtitem25" href="https://www.isc2.org/Certifications/CISSP" tooltiptext="(ISC)2 Certified Information Systems Security Professional
     $749 exam" tabindex="0" target="_blank" ><b>CISSP</b></a>
-                    <a class="blueopsitem1" href="https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html" tooltiptext="Mosse Institute Certified Threat Intelligence Analyst Certification
-  $450 certification programme
-  100% practical. No expiry." tabindex="0" target="_blank">MTIA</a>
+                    <div class="spacer"></div>
                     <a class="blueopsitem1" href="https://www.iacis.com/certification/cawfe/" tooltiptext="IACIS Certified Advanced Windows Forensic Examiner
-    $750 written exam & lab" tabindex="0" target="_blank" >CAWFE</a>
+    $750 written exam &amp; lab" tabindex="0" target="_blank" >CAWFE</a>
                     <a class="blueopsitem2" href="https://www.giac.org/certification/gcfa" tooltiptext="GIAC Certified Forensic Analyst
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GCFA</a>
@@ -1147,7 +1138,7 @@
     SANS course recommended" tabindex="0" target="_blank" >GSNA</a>
                     <div class="spacer5"></div>
                      <a class="blueopsitem1" href="https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/forensic-security-responder-certification" tooltiptext="OpenText Certified Forensic Security Responder
-    $250 written exam & lab" tabindex="0" target="_blank" >CFSR</a>
+    $250 written exam &amp; lab" tabindex="0" target="_blank" >CFSR</a>
                     <a class="blueopsitem1" href="https://www.giac.org/certification/network-forensic-analyst-gnfa" tooltiptext="GIAC Network Forensic Analyst
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GNFA</a>
@@ -1160,7 +1151,7 @@
     $400 exam
     $2000 training" tabindex="0" target="_blank" >eWPTX</a>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/certified-simulated-attack-specialist/index.html" tooltiptext="CREST Certified Simulated Attack Specialist
-    $2,520 2 exams & lab" tabindex="0" target="_blank" >CREST CCSAS</a>
+    $2,520 2 exams &amp; lab" tabindex="0" target="_blank" >CREST CCSAS</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -1169,7 +1160,7 @@
                     <div class="spacer5"></div>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect?wt.mc_id=learningredirect_certs-web-wwl" tooltiptext="Microsoft Azure Solutions Architect Expert
-    $330 exam" tabindex="0" target="_blank" >AZ-305</a>
+    $330 exam" tabindex="0" target="_blank" >AZ-500</a>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://www.vmware.com/education-services/certification/vcap-nv-deploy.html" tooltiptext="VMware Certified Implementation Expert in Network Virtualization
     $900 two exams" tabindex="0" target="_blank" >VCIX NV</a>
@@ -1184,10 +1175,14 @@
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="mgmtitem1" href="https://www.scrum.org/professional-scrum-certifications/professional-scrum-master-assessments" tooltiptext="Certified Scrum Professional - Scrum Master
-    $3,199 course exam
-    Branded course required" tabindex="0" target="_blank" style="font-size:0.5vmax;" >Scrum CSP-SM</a>
-                    <div class="spacer5"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <a class="mgmtitem1" href="https://www.scrum.org/assessments/professional-scrum-master-iii-certification" tooltiptext="Scrum.org Profesionall Scrum Master III
+    $500 exam
+    Branded course required" tabindex="0" target="_blank" >PSM III</a>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="mgmtitem1" href="https://www.giac.org/certification/gisp" tooltiptext="GIAC Information Security Professional
     $949 exam
@@ -1197,16 +1192,24 @@
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <div class="spacer"></div>
+                    <a class="blueopsitem1" href="https://www.mosse-institute.com/certifications/mtia-certified-threat-intelligence-analyst.html" tooltiptext="Mosse Institute Certified Threat Intelligence Analyst Certification
+  $450 certification programme
+  100% practical. No expiry." tabindex="0" target="_blank">MTIA</a>
 		    <a class="blueopsitem1" href="https://www.giac.org/certifications/cloud-forensics-responder-gcfr/" tooltiptext="GIAC Cloud Forensics Responder
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GCFR</a>
                     <a class="blueopsitem2" href="https://securityblue.team/btl2/" tooltiptext="Security Blue Team Level 2
     $2,190 course
     1 exam attempt included" tabindex="0" target="_blank">BTL2</a>
-                    <div class="spacer5"></div>
+                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mrt-certified-red-teamer.html" tooltiptext="Mosse Institute Certified Red Teamer Certification
+  $450 certification programme
+  100% practical. No expiry." tabindex="0" target="_blank">MRT</a>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/certified-infrastructure-tester/index.html" tooltiptext="CREST Certified Infrastructure Tester
-    $2,520 exam & lab" tabindex="0" target="_blank" >CREST CCT</a>
+    $2,520 exam &amp; lab" tabindex="0" target="_blank" >CREST CCT</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 10 -->
@@ -1220,7 +1223,7 @@
     $200 exam" tabindex="0" target="_blank" >Google PCSA</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="engineeritem1" href="https://training.suse.com/certification/sce-linux/" tooltiptext="SUSE Certified Engineer
+                    <a class="engineeritem1" href="https://www.suse.com/training/exam/sce-sles-15/" tooltiptext="SUSE Certified Engineer
     $195 practical exam" tabindex="0" target="_blank" >SCE</a>
                     <a class="engineeritem1" href="https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/" tooltiptext="ISA Cybersecurity Expert
     $2,700 course + exam
@@ -1236,13 +1239,14 @@
     $4,800 two course exams
     2 branded courses required" tabindex="0" target="_blank" >ITIL SL</a>
                     <a class="mgmtitem1" href="https://www.zachman.com/certification/what-we-certify/enterprise-architect" tooltiptext="Zachman Enterprise Architect Practitioner (Level 2)
-    $2,999 exam & case study
+    $2,999 exam &amp; case study
     Level 1 cert not req'd" tabindex="0" target="_blank" >Zach EAP</a>
                     <a class="mgmtitem1" href="https://www.giac.org/certification/gslc" tooltiptext="GIAC Security Leadership Certification
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GSLC</a>
+                    <a class="mgmtitem1" href="https://www.seco-institute.org/certifications/information-security-certification-track/" tooltiptext="SECO Certified Information Security Officer
+    Resume review" tabindex="0" target="_blank" >S-CISO</a>
                     <div class="spacer10"></div>
-                    <div class="spacer"></div>
                     <a class="blueopsitem3" href="https://elearnsecurity.com/product/ecmap-certification/" tooltiptext="eLearnSecurity Certified Malware Analysis Professional
     $400 exam" tabindex="0" target="_blank">eCMAP</a>
                     <a class="blueopsitem2" href="https://www.giac.org/certification/gcfe" tooltiptext="GIAC Cerified Forensics Examiner
@@ -1255,10 +1259,13 @@
                     <div class="spacer"></div>
                     <a class="redopsitem1" href="https://www.seco-institute.org/certifications/ethical-hacking-track/leader/" tooltiptext="SECO Certified Ethical Hacker Leader
     Application" tabindex="0" target="_blank" >S-CEHL</a>
-                    <div class="spacer"></div>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/registered-tester/index.html" tooltiptext="CREST Registered Penetration Tester
     $612 exam" tabindex="0" target="_blank" >CREST CRT</a>
-                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii" tooltiptext="Zero Point Security Red Team Operator II
+    $121 lab" tabindex="0" target="_blank" >CRTO II</a>
+                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mcd-certified-code-deobfuscation-specialist.html" tooltipright="Mosse Institute Certified Code Deobfuscation Specialist Certification
+    $450 certification programme
+    100% practical. No expiry." tabindex="0">MCD</a>
                     <div class="spacer"></div>
                     <!-- <a class="redopsitem1" href="http://www.iacertification.org/cerea.html" tooltipright="IACRB Certified Expert Reserve Engineering Analyst
     $499 exam" tabindex="0" target="_blank" >CEREA</a> -->
@@ -1269,9 +1276,7 @@
     ~$1,200 exam" tabindex="0" target="_blank" >CCNP Sec</a>
                     <a class="mgmtitem25" href="https://www.comptia.org/certifications/comptia-advanced-security-practitioner" tooltiptext="CompTIA Advanced Security Practitioner+
     $452 exam" tabindex="0" target="_blank" ><b>CASP+</b></a>
-                    <a class="blueopsitem1" href="https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html" tooltiptext="Moose Institute Certified Threat Hunter Certification
-  $450 certification programme
-  100% practical. No expiry." tabindex="0" target="_blank">MTH</a>
+                    <div class="spacer"></div>
                     <a class="blueopsitem1" href="https://www.giac.org/certification/advanced-smartphone-forensics-gasf" tooltiptext="GIAC Advanced Smartphone Forensics
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GASF</a>
@@ -1298,7 +1303,13 @@
                     <div class="spacer"></div>
                     <a class="iamitem1" href="https://www.identitymanagementinstitute.org/cimp/" tooltiptext="Identify Management Institute Certified Identity Management Professional
     $295 + Membership" tabindex="0" target="_blank" >CIMP</a>
-                    <div class="spacer5"></div>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.giac.org/certifications/cloud-threat-detection-gctd/" tooltiptext="GIAC Cloud Threat Detection
+    $949 exam
+    SANS course recommended" tabindex="0" target="_blank" >GCTD</a>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://www.exidacace.com/Apply/CACE" tooltiptext="Excida IEC 62443 Certified Automation Cybersecurity Expert
     $700 exam" tabindex="0" target="_blank" >CACE</a>
@@ -1312,7 +1323,7 @@
     4 branded courses requires" tabindex="0" target="_blank" >ITIL MP</a>
                     <a class="mgmtitem1" href="https://www.scrum.org/scaled-professional-scrum-certification" tooltiptext="Scrum Scaled Professional Scrum
     $250 exam" tabindex="0" target="_blank" >Scrum SPS</a>
-                    <a class="mgmtitem1" href="https://www.giac.org/certification/law-data-security-investigations-gleg" tooltiptext="GIAC Law of Data Security & Investigations
+                    <a class="mgmtitem1" href="https://www.giac.org/certification/law-data-security-investigations-gleg" tooltiptext="GIAC Law of Data Security &amp; Investigations
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GLEG</a>
                     <a class="mgmtitem1" href="https://gaqm.org/certifications/information_systems_security/cissm" tooltiptext="GAQM Certified Information Systems Security Manager
@@ -1342,7 +1353,7 @@
                     <a class="blueopsitem2" href="https://www.giac.org/certification/certified-enterprise-defender-gced" tooltiptext="GIAC Certified Enterprise Defender
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GCED</a>
-                    <a class="blueopsitem1" href=https://www.mosse-institute.com/certifications/mcpe-certified-cyber-protection-expert.html" tooltiptext="Mosse Institute Certified Cyber Protection Expert
+                    <a class="blueopsitem1" href="https://www.mosse-institute.com/certifications/mcpe-certified-cyber-protection-expert.html" tooltiptext="Mosse Institute Certified Cyber Protection Expert
     $800 exam" tabindex="0" target="_blank" >MCPE</a>
                     <a class="redopsitem1" href="https://www.pentesteracademy.com/redteamlab" tooltiptext="Pentester Academy Certified Red Teaming Expert
     $300-700 Lab Access
@@ -1371,10 +1382,10 @@
                     <a class="engineeritem1" href="https://www.giac.org/certification/cloud-security-automation-gcsa" tooltiptext="GIAC Cloud Security Automation
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GCSA</a>
-                    <div class="spacer"></div>
-                    <a class="engineeritem1" href="https://www.giac.org/certification/certified-windows-security-administrator-gcwn" tooltiptext="GIAC Certified Windows Security Administrator
+                    <a class="engineeritem1" href="https://www.giac.org/certifications/certified-windows-security-administrator-gcwn/" tooltiptext="GIAC Certified Windows Security Administrator
     $949 exam
-    SANS course encouraged" tabindex="0" target="_blank" >GCUX</a>
+    SANS course recommended" tabindex="0" target="_blank" >GCWN</a>
+                    <div class="spacer"></div>
                     <a class="engineeritem1" href="https://www.giac.org/certification/response-industrial-defense-grid" tooltiptext="GIAC Response and Industrial Defense
     $949 exam
     SANS course encouraged" tabindex="0" target="_blank" >GRID</a>
@@ -1428,11 +1439,8 @@
                     <a class="redopsitem1" href="https://www.offensive-security.com/wifu-oswp/" tooltiptext="Offensive Security Wireless Professional
     $450 labs" tabindex="0" target="_blank" >OSWP</a>
                     <a class="redopsitem1" href="https://courses.zeropointsecurity.co.uk/courses/red-team-ops" tooltipright="Zero Point Security Certified Red Team Operator
-    $349-399 lab
-    Course and lab required" tabindex="0" target="_blank" >CRTO</a>
-                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html" tooltipright="Mosse Institute Certified Reverse Engineer Certification
-  $450 certification programme
-  100% practical. No expiry." tabindex="0" target="_blank">MRE</a>
+    $121 lab" tabindex="0" target="_blank" >CRTO</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 14 -->
                     <div class="spacer"></div>
@@ -1480,7 +1488,9 @@
                     <div class="spacer"></div>
                     <a class="softwareitem6" href="https://www.isc2.org/Certifications/CSSLP" tooltiptext="(ISC)2 Certified Secure Software Lifecycle Professional
     $599 exam" tabindex="0" target="_blank" >CSSLP</a>
-                    <div class="spacer"></div>
+                    <a class="blueopsitem1" href="https://www.mosse-institute.com/certifications/mth-certified-threat-hunter.html" tooltiptext="Moose Institute Certified Threat Hunter Certification
+                    $450 certification programme
+                    100% practical. No expiry." tabindex="0" target="_blank">MTH</a>
                     <a class="blueopsitem1" href="https://app.infosecinstitute.com/portal/courses/a0tC0000000FovhIAC" tooltiptext="Infosec Institute Certified Data Recovery Professional
     $4,599 exam
     Course required" tabindex="0" target="_blank" >CDRP</a>
@@ -1509,12 +1519,16 @@
                     <a class="networkitem1" href="https://training.fortinet.com/local/staticpage/view.php?page=nse_6" tooltipleft="NSE 6 - FortiNET Network Security Specialist
     $800+ exam" tabindex="0" target="_blank" >NSE 6</a>
                     <div class="spacer"></div>
-                    <a class="engineeritem3" href="https://www.isc2.org/Certifications/CCSP" tooltiptext="(ISC)2 Certified Cloud Security Professional
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <a class="iamitem1" href="https://idpro.org/cidpro/" tooltiptext="IDPro Certified Identity Professional
+    $700 exam" tabindex="0" target="_blank" >CIDPRO</a>
+                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.isc2.org/Certifications/CCSP" tooltiptext="(ISC)2 Certified Cloud Security Professional
     $599 exam" tabindex="0" target="_blank" >CCSP</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mcse-certified-cloud-security-engineer.html" tooltiptext="Mosse Institute Cloud Security Engineer
-                    $600 exam" tabindex="0" target="_blank" >MCSE</a>
+                    <div class="spacer"></div>
                     <a class="engineeritem1" href="https://www.redhat.com/en/services/certification/rhcsa" tooltiptext="Red Hat Certified System Administrator
     $400 exam" tabindex="0" target="_blank" >RHCSA</a>
                     <a class="engineeritem1" href="https://www.tuv.com/landingpage/en/lp-certified-operational-technology-cybersecurity-professional-program/" tooltiptext="TUV Rheinland Certified Operational Technology Cybersecurity Professional (GERMAN)
@@ -1549,7 +1563,8 @@
                     <a class="testitem2" href="https://www.giac.org/certification/certified-intrusion-analyst-gcia" tooltiptext="GIAC Certified Intrusion Analyst
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GCIA</a>
-                    <div class="spacer"></div>
+                    <a class="testitem1" href="https://sharedassessments.org/ctpra/" tooltiptext="Shared Assessment Certified Third-Party Risk Assessor
+    $1295 course" target="_blank">CTPRA</a> 
                     <a class="testitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27001/iso-iec-27001-lead-auditor" tooltiptext="PECB ISO/IEC 27001 Lead Auditor
     $930 exam
     Course required" tabindex="0" target="_blank" >PECB 27001LA</a>
@@ -1565,7 +1580,7 @@
                     <a class="blueopsitem1" href="https://www.mile2.com/master-certifications/" tooltiptext="Mile2 Certified Master Digital Forensic Investigator
     Complete C)SP, C)DFE, C)NFE and C)CSA ($2200)" tabindex="0" target="_blank" >CM)DFI</a>
                     <a class="blueopsitem1" href="https://crest-approved.org/examination/registered-intrusion-analyst/index.html" tooltiptext="CREST Registered Intrusion Analyst
-    $612 exam & lab" tabindex="0" target="_blank" >CREST CRIA</a>
+    $612 exam &amp; lab" tabindex="0" target="_blank" >CREST CRIA</a>
                     <div class="spacer"></div>
                     <a class="blueopsitem1" href="https://crest-approved.org/examination/crest-registered-threat-intelligence-analyst/index.html" tooltiptext="CREST Registered Threat Intelligence Analyst
     $615 2 exams" tabindex="0" target="_blank" >CREST RTIA</a>
@@ -1582,7 +1597,7 @@
     $128 exam" tabindex="0" target="_blank" >GCPT</a>
                     <div class="spacer"></div>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/malware-reverse-engineer/index.html" tooltipright="CREST Certified Malware Reverse Engineer
-    $2,499 2 exams & lab" tabindex="0" target="_blank" >CREST CMRE</a>
+    $2,499 2 exams &amp; lab" tabindex="0" target="_blank" >CREST CMRE</a>
                     <a class="redopsitem1" href="https://www.elearnsecurity.com/certification/ecxd" tooltipright="eLearnSecurity Certified eXploit Developer
     $400 lab" tabindex="0" target="_blank" >eCXD</a>
                     <!-- Row 16 -->
@@ -1617,7 +1632,8 @@
     $200 exam" tabindex="0" target="_blank" >Scrum PAL</a>
                     <a class="mgmtitem1" href="https://www.pmi.org/certifications/types/certified-associate-capm" tooltiptext="PMI Certified Associate in Project Management
     $300 exam" tabindex="0" target="_blank" >CAPM</a>
-                    <div class="spacer"></div>
+                    <a class="mgmtitem1" href="https://www.scrum.org/assessments/professional-scrum-master-ii-certification" tooltiptext="Scrum.org Professional Scrum Master II
+    $250 exam" tabindex="0" target="_blank" >PSM II</a>
                     <a class="mgmtitem1" href="https://apmg-international.com/product/iso-iec-20000" tooltiptext="APMG ISO/IEC 20000 Practitioner
     $308 Exam
     Foundation or ITIL req'd">APMG 20000P</a>
@@ -1660,25 +1676,27 @@
     100% practical. No expiry." tabindex="0" target="_blank">MPT</a>
                     <a class="redopsitem1" href="https://www.eccouncil.org/programs/certified-penetration-testing-professional-cpent/" tooltiptext="EC Council Certified Penetration Testing Professional
     $999 exam" tabindex="0" target="_blank" >CPENT</a>
-                    <a class="redopsitem1" href="https://www.zeropointsecurity.co.uk/red-team-ops" tooltiptext="Zero Point Security Certified: Red Team Ops
-    $550 course
-    1 exam attempt included" tabindex="0" target="_blank" >ZPRTO</a>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/certified-web-application-tester/index.html" tooltiptext="CREST Certified Web Application Tester
-    $2,520 exam & lab" tabindex="0" target="_blank" >CREST CWAT</a>
+    $2,520 exam &amp; lab" tabindex="0" target="_blank" >CREST CWAT</a>
                     <a class="redopsitem1" href="https://www.giac.org/certification/enterprise-vulnerability-assessor-geva" tooltiptext="GIAC Enterprise Vulnerability Assessor
     $1999 exam
     SANS course recommended" tabindex="0" target="_blank" >GEVA</a>
-                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist/" tooltiptext="Hack the Box Certified Penetration Testing Specialist
+    $200 modules + $210 exam
+    $490 Subscription available" tabindex="0" target="_blank" >HTB CPTS</a>
+                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mre-certified-reverse-engineer.html" tooltipright="Mosse Institute Certified Reverse Engineer Certification
+    $450 certification programme
+    100% practical. No expiry." tabindex="0" target="_blank">MRE</a>
                     <div class="spacer"></div>
                     <!-- Row 17 -->
                     <div class="spacer"></div>
                     <a class="networkitem1" href="https://www.juniper.net/us/en/training/certification/certification-tracks/junos-security-track/?tab=jncisec" tooltipleft="Juniper Networks Certified Internet Specialist, Security
     $300 exam" tabindex="0" target="_blank" >JNCIS Sec</a>
                     <div class="spacer"></div>
-                    <a class="mgmtitem25" href="https://www.learnpython.org/" tooltiptext="Learning a programming language is valuable to any IT professional's career.
+                    <a class="mgmtitem25" href="https://www.learnpython.org/" tooltiptext="Learning a programming language is valuable to any IT professionals career.
     Recommendations: Python, Ruby, C++" tabindex="0" target="_blank" >Programming Language</a>
                     <a class="blueopsitem1" href="https://crest-approved.org/examination/host-intrusion-analyst/index.html" tooltiptext="CREST Certified Host intrustion Analyst
-    $2,481 exam & essay
+    $2,481 exam &amp; essay
     Hands on exam in UK" tabindex="0" target="_blank" >CREST CHIA</a>
                     <a class="blueopsitem1" href="https://www.opentext.com/products-and-solutions/services/training-and-learning-services/encase-training/examiner-certification" tooltiptext="OpenText EnCase Certified Examiner
     $200 two exams" tabindex="0" target="_blank" >EnCE</a>
@@ -1697,8 +1715,8 @@
                     <a class="redopsitem1" href="https://www.mile2.com/master-certifications/" tooltiptext="Mile2 Certified Master Intrusion Prevention Specialist
     Complete C)VA, C)PEH, C)PTE and C)PTC ($2200)" tabindex="0" target="_blank" >CM)IPS</a>
                     <a class="redopsitem1" href="https://academy.hackthebox.com/preview/certifications/htb-certified-bug-bounty-hunter/" tooltiptext="Hack the Box Certified Bug Bounty Hunter
-    $210 exam + $490 lab
-    Student discount available" tabindex="0" target="_blank" >HTB CBBH</a>
+    $145 modules + $210 exam
+    $490 Subscription available" tabindex="0" target="_blank" >HTB CBBH</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <!-- Row 18 -->
@@ -1712,7 +1730,7 @@
                     <div class="spacer"></div>
                     <a class="engineeritem2" href="https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer?wt.mc_id=learningredirect_certs-web-wwl" tooltiptext="Microsoft Azure Security Engineer Associate
     $165 exam" tabindex="0" target="_blank" >AZ-500</a>
-                    <a class="engineeritem1" href="https://cloudsecurityalliance.org/education/cloud-governance-and-compliance/" tooltiptext="Cloud Security Alliance Cloud Governance & Compliance
+                    <a class="engineeritem1" href="https://cloudsecurityalliance.org/education/cloud-governance-and-compliance/" tooltiptext="Cloud Security Alliance Cloud Governance &amp; Compliance
     $315 exam" tabindex="0" target="_blank" >CSA CGC</a>
                     <a class="engineeritem1" href="https://www.vmware.com/education-services/certification/vcp-nv-tracks.html" tooltiptext="VMware Certified Professional in Network Virtualization
     $375 exam
@@ -1802,8 +1820,7 @@
     $150 exam" tabindex="0" target="_blank" >AWS SAA</a>
                     <a class="engineeritem1" href="https://www.exin.com/certifications/ccc-professional-cloud-service-manager-exam" tooltiptext="EXIN Professional Cloud Service Manager
     $315 exam" tabindex="0" target="_blank" >EXIN PCSerM</a>
-                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mdso-certified-devsecops-engineer.html" tooltiptext="Mosse Institute Certified DevSecOps Engineer
-    $450 exam" tabindex="0" target="_blank" >MDSO</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/" tooltiptext="ISA Certified Risk Assesment Specialist
     $2,700 course + exam
@@ -1860,15 +1877,14 @@
     Learning subscription required" tabindex="0" target="_blank" >OSDA</a>
                     <a class="redopsitem1" href="https://www.elearnsecurity.com/certification/emapt" tooltiptext="eLearnSecurity Mobile Application Penetration Tester
     $400" tabindex="0" target="_blank" >eMAPT</a>
-                    <a class="redopsitem1" href="hhttps://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/" tooltiptext="SECO Ethical Hacking Practitioner
-    $550 exam" tabindex="0" target="_blank" >S-EHP</a>
+                    <a class="redopsitem1" href="https://portswigger.net/web-security/certification" tooltiptext="Portswigger Burp Suite Certified Practioner
+    $99 exam" target="_blank">BSCP</a>
                     <a class="redopsitem1" href="https://www.isecom.org/certification.html" tooltiptext="ISECOM OSSTMM Professional Security Tester
     Unknown" tabindex="0" target="_blank" >OPST</a>
                     <a class="redopsitem1" href="https://www.offensive-security.com/web200-oswa/" tooltiptext="Offensive Security Web Assessor
     $2,499 Exam
     Learning subscription required" tabindex="0" target="_blank" >OSWA</a>
-                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html" tooltipright="Mosse Institute Vulnerability Researcher and Exploitation Specialist
-    $450 Exam" tabindex="0" target="_blank" >MVRE</a>
+                    <div class="spacer"></div>
                     <a class="redopsitem1" href="https://app.infosecinstitute.com/portal/courses/a0tC0000000Fp4IIAS" tooltipright="Infosec Institute Certified Reverse Engineering Analyst
     $4,599 exam
     Course required" tabindex="0" target="_blank" >CREA</a>
@@ -1879,7 +1895,7 @@
                     <a class="networkitem1" href="https://www.cwnp.com/certifications/cwsp" tooltipleft="CWNP Certified Wireless Security Professional
     $325 exam" tabindex="0" target="_blank" >CWSP</a>
                     <a class="networkitem1" href="https://crest-approved.org/examination/certified-network-intrusion-analyst/index.html" tooltiptext="CREST Certified Network Intrusion Analyst
-    $2,481 exam & essay
+    $2,481 exam &amp; essay
     Hands on exam in UK" tabindex="0" target="_blank">CREST CNIA</a>
                     <div class="spacer"></div>
                      <a class="iamitem1" href="https://www.identitymanagementinstitute.org/cige/" tooltiptext="IMI Certified Identity Governance Expert
@@ -1893,7 +1909,8 @@
     <a class="engineeritem1" href="https://cert.eccouncil.org/certified-cloud-security-engineer.html" tooltiptext="EC Council Certified Cloud Security Engineer
     $100 exam
     EC Council Course Recommended" tabindex="0" target="_blank" >CCSE</a>
-                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mcse-certified-cloud-security-engineer.html" tooltiptext="Mosse Institute Cloud Security Engineer
+                    $600 exam" tabindex="0" target="_blank" >MCSE</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="engineeritem1" style="font-size:0.5vmax;" href="https://trailhead.salesforce.com/credentials/systemarchitect" tooltiptext="SalesForce System Architect
@@ -1917,19 +1934,20 @@
                     <a class="mgmtitem1" href="https://www.sans.org/security-awareness-training/career-development/credential/" tooltiptext="SANS Security Awareness Professional
     $1219 Exam
     SANS MGT433 course recommended" tabindex="0" target="_blank" rel="noopener">SSAP</a>
-                    <a class="mgmtitem1" href="https://www.thehlayer.com/about-exam/" tooltiptext="The H Layer Security Awareneww and Culture Professional
+                    <a class="mgmtitem1" href="https://www.oceg.org/certifications/grc-professional-certification/" tooltiptext="OCEG Governance, Risk, and Compliance Professional
+    $399 12 month license" tabindex="0" target="_blank" rel="noopener">GRCP</a>
+                    <a class="mgmtitem1" href="https://www.thehlayer.com/about-exam/" tooltiptext="The H Layer Security Awareness and Culture Professional
     $369 Exam" tabindex="0" target="_blank" rel="noopener">SACP</a>
                     <a class="mgmtitem1" href="https://gaqm.org/certifications/information_systems_security/cisp" tooltiptext="GAQM Certified Information Security Professional
     $170 exam" tabindex="0" target="_blank" >CISP</a>
                     <div class="spacer"></div>
-                    <div class="spacer"></div>
                     <a class="testitem1" href="https://www.certipedia.com/quality_marks/0000063484?locale=en" tooltiptext="TUV Rheinland IT Security Auditor (GERMAN)
     $415 exam
     Course required" tabindex="0" target="_blank" >TUV Auditor</a>
+                    <a class="testitem1" href="https://sharedassessments.org/ctprp/" tooltiptext="Shared Assessment Certified Third-Party Risk Professional
+    $1295 course" target="_blank">CTPRP</a>                
                     <a class="testitem1" href="https://na.theiia.org/certification/CIA-Certification/Pages/CIA-Certification.aspx" tooltiptext="The Institute of Internal Auditors Certified Internal Auditor
     $1315 3 exams" target="_blank">IIA CIA</a>
-                     <a class="testitem1" href="https://portswigger.net/web-security/certification" tooltiptext="Portswigger Burp Suite Certified Practioner
-    $99 exam" target="_blank">BSCP</a>
                     <div class="spacer"></div>
                     <a class="softwareitem1" href="https://certnexus.com/certification/cyber-secure-coder/" tooltiptext="CertNexus Cyber Secure Coder
     $300 exam" tabindex="0" target="_blank" >CCSC</a>
@@ -1950,9 +1968,10 @@
     $610 exam" tabindex="0" target="_blank" >CSTM</a>
                     <!-- <a class="redopsitem1" href="http://iacertification.org/cpt_certified_penetration_tester.html" tooltiptext="IACRB Certified Penetration Tester
     $499 exam" tabindex="0" target="_blank" >CPT</a> -->
-                    <a class="redopsitem1" href="https://www.elearnsecurity.com/certification/ejpt" tooltiptext="eLearnSecurity Junior Penetration Tester
-    $200 lab" tabindex="0" target="_blank" >eJPT</a>
-                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://ine.com/learning/certifications/internal/elearnsecurity-junior-penetration-tester-v2" tooltiptext="eLearnSecurity Junior Penetration Tester
+    $249 lab" tabindex="0" target="_blank" >eJPT</a>
+                    <a class="redopsitem1" href="hhttps://www.seco-institute.org/certifications/ethical-hacking-track/practitioner/" tooltiptext="SECO Ethical Hacking Practitioner
+    $550 exam" tabindex="0" target="_blank" >S-EHP</a>
                     <a class="redopsitem1" href="https://www.isecom.org/certification.html" tooltiptext="ISECOM Certified Hacker Analyst Trainer
     $100 annual sub
     Unknown exam price" tabindex="0" target="_blank" >CHAT</a>
@@ -1977,8 +1996,9 @@
     $200 exam" tabindex="0" target="_blank" >Google PCSE</a>
                     <a class="engineeritem1" href="https://www.exin.com/certifications/ccc-professional-cloud-security-manager-exam" tooltiptext="EXIN Professional Cloud Security Manager
     $315 exam" tabindex="0" target="_blank" >EXIN PCSM</a>
-                    <div class="spacer"></div>
-                    <a class="engineeritem1" href="https://training.suse.com/certification/sca-linux/" tooltiptext="SUSE Certified Administrator
+                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mdso-certified-devsecops-engineer.html" tooltiptext="Mosse Institute Certified DevSecOps Engineer
+    $450 exam" tabindex="0" target="_blank" >MDSO</a>
+                    <a class="engineeritem1" href=" https://www.suse.com/training/exam/sca-sles-15/" tooltiptext="SUSE Certified Administrator
     $149 exam" tabindex="0" target="_blank" >SCA</a>
                     <a class="engineeritem1" href="https://www.isa.org/training-and-certifications/isa-certification/isa99iec-62443/isa99iec-62443-cybersecurity-certificate-programs/" tooltiptext="ISA Certified Automation Specialist
     $467 exam" tabindex="0" target="_blank" >ISA CAP</a>
@@ -1995,7 +2015,8 @@
     $128 exam" tabindex="0" target="_blank">CAD</a>
                     <a class="mgmtitem1" href="https://gaqm.org/certifications/scrum_agile/cac" tooltiptext="GAQM Certified Agile Coach
     $170" tabindex="0" target="_blank">CAC</a>
-                        <div class="spacer"></div>
+                    <a class="mgmtitem1" href="https://www.ismi.org.uk/csmp/csmp%C2%AE-overview.aspx" tooltiptext="ISMI Certified Security Management Professional
+    $1159" tabindex="0" target="_blank" >ISMI CSMP</a>
                     <a class="mgmtitem1" href="https://ecfirst.biz/index.php?route=product/product&path=59_61&product_id=89" tooltiptext="EC First Certified Security Compliance Specialist
     $695 exam" tabindex="0" target="_blank" >CSCS</a>
                     <a class="mgmtitem1" href="https://apmg-international.com/product/isoiec-27001" tooltiptext="APMG ISO/IEC 27001 Foundation
@@ -2009,7 +2030,8 @@
                     <a class="testitem2" href="https://drii.org/certification/cbca" tooltiptext="DRI Certified Business Continuity Auditor
     $400 exam
     Application req" target="_blank">DCBCA</a>
-                    <div class="spacer"></div>
+                    <a class="testitem1" href="https://www.oceg.org/certifications/grc-audit-certification/" tooltiptext="OCEG Governance, Risk, and Compliance Auditor
+    $399 12 month license" tabindex="0" target="_blank" rel="noopener">GRCA</a>
                     <a class="testitem1" href="https://gaqm.org/certifications/information_systems_security/cisst" tooltiptext="GAQM Certified Information systems Security Tester
     $170 exam" tabindex="0" target="_blank" >CISST</a>
                     <div class="spacer"></div>
@@ -2040,7 +2062,8 @@
                     <a class="redopsitem1" href="https://0xdarkvortex.dev/training-programs/offensive-tool-development/" tooltiptext="Dark Vortex Offensive Tool Development
     $2000 exam
     Course required" tabindex="0" target="_blank" >DV OTD</a>
-                    <div class="spacer"></div>
+                    <a class="redopsitem1" href="https://www.mosse-institute.com/certifications/mvre-vulnerability-researcher-and-exploitation-specialist.html" tooltipright="Mosse Institute Vulnerability Researcher and Exploitation Specialist
+                    $450 Exam" tabindex="0" target="_blank" >MVRE</a>
                     <!-- Row 22 -->
                     <div class="spacer"></div>
                     <a class="networkitem1" href="https://www.mosse-institute.com/certifications/mnse-network-security-essentials.html" tooltipleft="Mosse Institute Network Security Essentials
@@ -2089,7 +2112,7 @@
                     <a class="redopsitem1" style="font-size:0.5vmax;" href="https://www.comptia.org/certifications/pentest" tooltiptext="CompTIA Pentest+
     $349 exam" tabindex="0" target="_blank" >Pentest+</a>
                     <a class="redopsitem1" href="https://crest-approved.org/examination/certified-simulated-attack-specialist/index.html" tooltipright="CREST Certified Simulated Attack Specialist
-    $2,520 2 exams & lab" tabindex="0" target="_blank" >CREST CSAS</a>
+    $2,520 2 exams &amp; lab" tabindex="0" target="_blank" >CREST CSAS</a>
                     <a class="redopsitem1" href="https://www.eccouncil.org/programs/ec-council-certified-encryption-specialist-eces/" tooltipright="EC Council Certified Encryption Specialist
     $249 exam" tabindex="0" target="_blank" >ECES</a>
                     <!-- Row 23 -->
@@ -2101,7 +2124,9 @@
                     <a class="networkitem1" href="https://www.wcnacertification.com/exam-information-1" tooltipleft="Protocol Analysis Institute Wireshark Certified Network Analyst
     $299 exam" tabindex="0" target="_blank" >WCNA</a>
                     <div class="spacer"></div>
-                    <a class="engineeritem2" href="https://www.comptia.org/certifications/server" tooltiptext="CompTIA Server+
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.comptia.org/certifications/server" tooltiptext="CompTIA Server+
     $319 exam" tabindex="0" target="_blank" >Server+</a>
                     <a class="engineeritem1" href="https://www.practical-devsecops.com/certified-devsecops-professional/" tooltiptext="PDSO Certified DevSecOps Professional
     $799
@@ -2145,12 +2170,14 @@
                     <div class="spacer"></div>
                     <a class="networkitem1" href="https://training-certifications.checkpoint.com/#/courses/Check%20Point%20Certified%20Admin%20(CCSA)%20R80.x" tooltipleft="Checkpoint Certified Security Administrator
     $250 exam" tabindex="0" target="_blank" >CCSA</a>
-                    <a class="networkitem1" href="https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi" tooltipleft="Certiport IT Sepcialist - Network Security
+                    <a class="networkitem1" href="https://certiport.filecamp.com/s/ITS_OD_102_Network_Security/fi" tooltipleft="Certiport IT Specialist - Network Security
     $127 exam" tabindex="0" target="_blank" >ITS-NS</a>
                     <a class="networkitem1" href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/entry/technician-cct.html" tooltiptext="Cisco Certified Technician
     $165 exam" tabindex="0" target="_blank" >CCT</a>
                     <div class="spacer"></div>
-                    <a class="engineeritem2" href="https://www.comptia.org/certifications/cloud" tooltiptext="CompTIA Cloud+ 
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.comptia.org/certifications/cloud" tooltiptext="CompTIA Cloud+ 
     $329 exam" tabindex="0" target="_blank" >Cloud+</a>
                     <a class="engineeritem1" href="https://cloud.google.com/certification/cloud-engineer" tooltiptext="Google Associate Cloud Engineer
     $125 exam" tabindex="0" target="_blank" >Google ACE</a>
@@ -2193,9 +2220,10 @@
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals" tooltiptext="Microsoft Azure Fundamentals
     $165 exam" tabindex="0" target="_blank" >AZ-900</a>
-                    <a class="engineeritem1" href="/https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html" tooltiptext="Mosse Institute Cloud Services Fundamentals
+                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mcsf-cloud-services-fundamentals.html" tooltiptext="Mosse Institute Cloud Services Fundamentals
                     $450 exam" tabindex="0" target="_blank" >MCSF</a>
-                    <div class="spacer"></div>
+                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/msaf-system-administration-fundamentals.html" tooltiptext="Mosse Institute System Administration Fundamentals
+                    $450 exam" tabindex="0" target="_blank" >MSAF</a>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://training.apple.com/us/en/recognition" tooltiptext="Apple Certified Support Professional
     $250 exam
@@ -2213,7 +2241,7 @@
     $170 exam" tabindex="0" target="_blank" >CSP</a>
                     <a class="mgmtitem1" href="https://www.iiba.org/certification/iiba-certifications/specialized-business-analysis-certifications/certificate-in-cybersecurity-analysis/" tooltiptext="IIBA Certification in Cybersecurity Analysis
     $475 exam" tabindex="0" target="_blank" >IIBA CCA</a>
-                    <a class="mgmtitem1" href="https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course" tooltiptext="IBITGQ Certified in Implementing IT Governance - Foundation & Principles
+                    <a class="mgmtitem1" href="https://www.itgovernance.co.uk/shop/product/implementing-it-governance-foundation-principles-training-course" tooltiptext="IBITGQ Certified in Implementing IT Governance - Foundation &amp; Principles
     ~$2,499 course exam
     Branded course required" tabindex="0" target="_blank" >CITGP</a>
                     <a class="mgmtitem1" href="https://www.mile2.com/iscap_outline/" tooltiptext="Mile2 Information Systems Certification and Accredidation Professional
@@ -2230,7 +2258,7 @@
                     $127 exam" tabindex="0" target="_blank" >ITS-C</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="testitem1" href="https://www.exin.com/qualification-program/exin-cyber-and-it-security" tooltiptext="EXIN Cyber & IT Security
+                    <a class="testitem1" href="https://www.exin.com/qualification-program/exin-cyber-and-it-security" tooltiptext="EXIN Cyber &amp; IT Security
     $225 exam" tabindex="0" target="_blank" >EXIN CIT</a>
                     <a class="testitem1" href="https://www.tuv.com/landingpage/en/training-functional-safety-cyber-security/detail-pages/zertifikate/cs-specialist.html" tooltiptext="TUV Rheinland Cybersecurity Specialist (GERMAN)
     $415 exam
@@ -2268,9 +2296,9 @@
                     <div class="spacer"></div>
                     <a class="networkitem1" href="https://www.paloaltonetworks.com/services/education/certification" tooltipleft="Palo Alto Networks Certified Cybersecurity Entry-level Technician
     $110 exam" tabindex="0" target="_blank" >PCCET</a>
-		            <div class="spacer"></div>
-		            <div class="spacer"></div>
-		            <div class="spacer"></div>
+	            <div class="spacer"></div>
+		    <div class="spacer"></div>
+		    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <a class="engineeritem1" href="https://aws.amazon.com/certification/certified-cloud-practitioner/" tooltiptext="Amazon Web Services Certified Cloud Practitioner
@@ -2294,22 +2322,21 @@
                     <a class="mgmtitem1" href="https://risklens-academy.myshopify.com/collections/popular-courses/products/fair-analysis-fundamentals-2" tooltiptext="Fair Institute Analysis Fundamentals
     $1499 exam
     Course required" tabindex="0" target="_blank" >Fair Fdn</a>
-                    <a class="mgmtitem1" href="https://www.ciisec.org/ICSF_Exam" tooltiptext="CIISec Information and Cybersecurity Fundamentals
-    $450 exam" tabindex="0" target="_blank" >CIISec ICSF</a>
+                    <a class="mgmtitem1" href="https://www.scrum.org/assessments/professional-scrum-master-i-certification" tooltiptext="Scrum.org Professional Scrum Master I
+    $150 exam" tabindex="0" target="_blank" >PSM I</a>
                     <a class="mgmtitem1" href="https://apmg-international.com/product/iso-20000" tooltiptext="APMG ISO/IEC 20000 Foundation
     $308 exam" tabindex="0" target="_blank" >APMG 20000F</a>
-                    <div class="spacer"></div>
+                    <a class="mgmtitem1" href="https://www.ismi.org.uk/csmp/certified-security-manager%C2%AE" tooltiptext="ISMI Certified Security Manager
+    $TBD" tabindex="0" target="_blank" >ISMI CSM</a>
                     <a class="mgmtitem1" href="https://www.bcs.org/get-qualified/certifications-for-professionals/information-security-and-ccp-scheme-certifications/bcs-foundation-certificate-in-information-security-management-principles/" tooltiptext="BCS Foundation Certifiate in Information Security Management Principles
     $249 exam" tabindex="0" target="_blank" >BCS FISMP</a>
-                    <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-foundation" tooltiptext="PECB ISO/IEC 27005 Foundation
-    $500-749 exam
-    Course required" tabindex="0" target="_blank" >PECB 27005F</a>
+                    <a class="mgmtitem1" href="https://www.isc2.org/Certifications/CC" tooltiptext="ISC2 Certified in Cybersecurity
+    Free exam" tabindex="0" target="_blank" >CC</a>
                     <a class="mgmtitem1" href="https://www.seco-institute.org/certifications/information-security-certification-track/" tooltiptext="SECO Information Security Foundation
                     $460 exam" tabindex="0" target="_blank" >S-ISF</a>
                     <a class="mgmtitem2" href="https://www.giac.org/certification/information-security-fundamentals-gisf" tooltiptext="GIAC Information Security Fundamentals
     $949 exam
     SANS course recommended" tabindex="0" target="_blank" >GISF</a>
-                    
                     <div class="spacer"></div>
                     <a class="testitem1" style="font-size:0.5vmax;" href="https://www.is-its.org/seminare/isits-seminarangebot/cybersecurity-awareness-beauftragter" tooltiptext="TUV Rheinland Cybersecurity Awareness (GERMAN)
     $415 exam
@@ -2344,8 +2371,7 @@
     $123 exam" tabindex="0" target="_blank" >Cloud Essnt</a>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <a class="engineeritem1" href="https://www.mosse-institute.com/certifications/mtcf-technical-cybersecurity-fundamentals.html" tooltiptext="Mosse Institute Technical Cybersecurity Fundamentals
-                    Free exam" tabindex="0" target="_blank" >MTCF</a>
+                    <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
@@ -2355,13 +2381,16 @@
     $383 exam" tabindex="0" target="_blank" >ITIL Fdn</a>
                     <a class="mgmtitem1" href="https://www.comptia.org/certifications/project" tooltiptext="CompTIA Project+
     $329 exam" tabindex="0" target="_blank" >Project+</a>
-                    <div class="spacer"></div>
+                   <a class="mgmtitem1" href="https://www.ciisec.org/ICSF_Exam" tooltiptext="CIISec Information and Cybersecurity Fundamentals
+    $450 exam" tabindex="0" target="_blank" >CIISec ICSF</a>
                     <div class="spacer"></div>
                     <a class="mgmtitem1" href="https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam?language_content_entity=en" tooltiptext="EXIN Information Security Foundation
     $232 exam" tabindex="0" target="_blank" >FEXIN</a>
                     <a class="mgmtitem1" href="https://www.exin.com/certifications/information-security-foundation-based-iso-iec-27001-exam" tooltiptext="EXIN ISO/IEC 27001 Foundation
     $232 exam" tabindex="0" target="_blank" >EXIN 27001F</a>
-                    <div class="spacer"></div>
+                   <a class="mgmtitem1" href="https://pecb.com/en/education-and-certification-for-individuals/iso-iec-27005/iso-iec-27005-foundation" tooltiptext="PECB ISO/IEC 27005 Foundation
+    $500-749 exam
+    Course required" tabindex="0" target="_blank" >PECB 27005F</a>
                     <a class="mgmtitem1" href="https://www.itgovernance.co.uk/shop/product/certified-cyber-security-foundation-training-course" tooltiptext="IBITGQ Certified Cyber Security Foundation
     $725 course exam
     Branded course required" tabindex="0" target="_blank" >C CS F</a>
@@ -2384,6 +2413,6 @@
                     <div class="spacer"></div>
             </div>
             <!-- Find # of certs by searching for _bl@nk replacing the @ for a -->
-            <div class="key">460 certifications listed | August 2022</div>
+            <div class="key">473 certifications listed | January 2023</div>
             <div class="key"> <br></div>
     </div>
