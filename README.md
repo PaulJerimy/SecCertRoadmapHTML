@@ -8,12 +8,36 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 ## Change Log
 
 ### January 2023:
-- Added ISMI certications: CSM and CSMP
+- Added ISC2 certification: CC
+- Added ISMI certifications: CSM and CSMP
 - Added OCEG certifications: GRCP and GRCA
 - Added Zero Point Security certification: CRTO II
 - Added GIAC certifications: GCTD and GCWN
+- Added Scrum.org certifications: PSM I and PSM II
+- Added IDPro certification: CIDPRO
+- Added Mosse Institute: MSAF
+- Added HTB certification: HTB CPTS
+- Added Shared Assessments certifications: CTPRP and CTPRA
 - Removed duplicate Zero Point CRTO
+- Removed Mosse Institute MTCF (defunct)
+- Removed SUSE SEA (defunct)
 - Updated link and exam cost for eJPT
+- Corrected CSP-SM as PSM III
+- Corrected links for SUSE SCA and SCE
+- Moved BSCP from Test to Penetration Testing
+- Moved BSCP up 1 row
+- Moved OSEE up 1 row
+- Moved S-CISO down 5 rows
+- Moved CIISec ICSF down 1 row
+- Moved MTIA down 2 rows
+- Moved MDSO down 2 rows
+- Moved MVRE down 2 rows
+- Moved MTH down 3 rows
+- Moved MRT down 3 rows
+- Moved MRE down 3 rows
+- Moved MCD down 4 rows
+- Moved MCSE down 5 rows
+- Reduced Cloud+, Server+, and CCSP size to just the Security Architecture & Engineering - Cloud/SysOps sub-domain
 
 ### August 2022:
 - Added SANS certifications: GIME and GCFR
