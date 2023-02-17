@@ -7,6 +7,11 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### February 2023:
+- January's update was done to the wrong version which brought some old bugs back:
+- Duplicate AZ-500 fixed to AZ-305
+- Static mobile version changed back to dynamic
+
 ### January 2023:
 - Added ISC2 certification: CC
 - Added ISMI certifications: CSM and CSMP
