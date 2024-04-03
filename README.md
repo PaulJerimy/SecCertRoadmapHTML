@@ -7,6 +7,12 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### April 2024:
+- Added the principal Brazilian certifications
+- Added DESEC Certified Penetration Tester: DCPT
+- Added Sec4US Certified Mobile Pentester Android: SCMP|A
+- Added Sec4US Certified Web API Pentester: SCWAP
+
 ### February 2023:
 - January's update was done to the wrong version which brought some old bugs back:
 - Duplicate AZ-500 fixed to AZ-305
