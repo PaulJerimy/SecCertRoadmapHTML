@@ -7,6 +7,42 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### July 2024:
+- Added GIAC certifications: GRTP, GEIR, GX-FA, GX-PT, GMLE
+- Added ISACA certification: CCOA
+- Added CyberDefenders certification: CCD (credit: 0xHasanM)
+- Added TCM Security certification: PJMR (credit: Brandon-Russell-1)
+- Added Hack the Box certifications: HTB CDSA, HTB CWEE
+- Added The SecOps Group certifications: SOG CAP, SOG NSP, SOG CCSP-AWS, SOG CAPen, SOG CNPen, SOG CMPen And, SOG CMPen iOS, CCPenX-AWS, SOG CAPenX
+- Added Fortinet certifications: FCF, FCA, FCP NS, FCP PCS, FCP SO, FCSS SO, FCSS OT, FCSS NS, FCSS SASE, FCSS PCS, FCSS ZTA, FCX
+- Removed defunct Fortinet certifications: NSE 3, 4, 5, 6, 7, 8
+- Removed defunct Palo Alto certifications: PA CRTP, and PA CRTE (credit: MaLevi4)
+- Removed defunct Linux Foundation certification: LFCE (credit: MaLevi4)
+- Removed defunct CREST certifications: CRTSA, CMRE (credit: sawft99)
+- Removed defunct INE certifications: eCRE, eCPTX, eCMAP, eWDP, eCXD (credit: Brandon-Russell-1 & r-yu-2)
+- Removed defunct GIAC certifications: GPPA, GEVA, and also ICS612 because its not a certification
+- Removed defunct ISC2 certification: HCISPP
+- Removed defucnct ISACA certifications: CSX-PA, CSX-T
+- Removed defunct IA Certification certification: CEREA
+- Moved GIAC GSE down 2 rows after removal of lab requirement
+- Shortened Security+, SSCP, GSEC, Programming Languages, CASP+, CISSP, CISSP Concentrations, and GSE to cover 4 spaces in only GRC to make room for more certifications
+- Shortened GREM to fit with the new size of the GRC certifications
+- Corrected GIAC GPYC as a blue ops certification instead of a red ops
+- Corrected (ISC)2 branding to ISC2 (credit: kabaki1982)
+- Corrected lins for eLearnSecurity Certifications
+- Corrected link for S-EHR (credit: kasperkarlsson)
+- Corrected link to CISSP concentrations (credit: psarossy)
+- Corrected links to CREST certifications (credit: sawft99)
+- Corrected links for Cisco DevNet Pro and DevNet A
+- Corrected spelling for PSM III and MTH description
+- Corrected certification names for CREST CCTINF, CCTIM, CCHIA, CCTAPP, CCNIA,  (credit: sawft99)
+- Corrected certification name for SC-400 (credit: ep3p)
+- Corrected certification name for AZ-305 (credit: wongsenoch)
+- Corrected certification name for CAP to CGRC (credit: corbin-lounsbury)
+- Corrected price for Splunk ECSA (credit: aserpi)
+- Corrected prices for GIAC certifications
+- Corrected prices for CompTIA certifications
+
 ### February 2023:
 - January's update was done to the wrong version which brought some old bugs back:
 - Duplicate AZ-500 fixed to AZ-305
