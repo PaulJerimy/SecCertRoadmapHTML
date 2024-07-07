@@ -843,23 +843,9 @@
         display: block;    
     }
 
-    /* Make a static image if horizontal screen is smaller than 898px (iPhone size is 898)*/
-    #interactive {display: block;}
-    #static {display: none;}
-    
-    @media screen and (max-width: 897px) {
-    
-      #interactive {display: none;}
-      #static {display: block;}
-    
-    }
     </style>
     
-    <div id="static">
-            <img src="https://pauljerimy.com/wp-content/uploads/2022/03/SCRApril2022.png" alt="Static Security Certification Chart (April 2022)" class="wp-image-309">
-    </div>
-    
-    <div id="interactive" class="certchart">
+    <div style="display: block;" class="certchart">
         <div style="text-align:left;font-size:200%;font-weight:500;padding-bottom:0.2vmax;">Security Certification Roadmap
 
         </div>
