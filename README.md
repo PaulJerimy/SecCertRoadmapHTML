@@ -7,6 +7,9 @@ I am open to restructing this html if a better way is known. I am a beginner at 
 
 ## Change Log
 
+### October 2024:
+- Added TCM Security certification: PJSA (credit: L0WK3Y-IAAN)
+
 ### July 2024:
 - Added GIAC certifications: GRTP, GEIR, GX-FA, GX-PT, GMLE
 - Added ISACA certification: CCOA
